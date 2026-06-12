@@ -18,5 +18,23 @@ export const styles = StyleSheet.create({
     numero: {
         fontSize: 20,
         fontWeight: 'bold',
-    }
-})
+    },
+    nome: {
+        fontSize: 18,
+        color: '#fff',
+        fontWeight: '800',
+        marginBottom: 5
+    },
+    imageContainer: {
+        flex: 0.3,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    imagem: {
+        width: 140,
+        height: 140,
+        right: 10,
+        position: 'absolute',
+        top: -20
+    },
+});
